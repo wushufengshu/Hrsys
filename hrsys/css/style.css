@@ -1,0 +1,507 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab');
+*{
+	margin: 0;
+	padding: 0;
+}
+html,body{
+	margin:0 auto;
+	font: 15px/1.5 Roboto, sans-serif
+	padding: 0;
+	background-color:#f4f4f4;
+	color: lighten(black, 22%);
+	height: 100%;
+}
+
+.error{
+	color: #fff;
+}
+.maincontainer{
+	min-height: 100%;
+	position: relative;
+}
+.main{
+	padding-bottom: 100px;
+}
+.container{
+	width: 80%;
+	margin: auto;
+	overflow: hidden;
+}
+ul{
+	margin: 0;
+	padding: 0;
+}
+.btnSubscribe{
+	height: 38px;
+	background: #DAA520;
+	border: 0;
+	padding: 0 20px 0 20px;
+}
+.dark{
+	padding: 15px;
+	background: #2f4f4f;
+	color: #ffffff;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+header{
+	background: #2f4f4f;
+	color: #f5f5f5;
+	padding-top: 30px;
+	min-height: 60px;
+	border-bottom: #f7ba43 5px solid;
+	font-family: sans-serif;
+}
+header a{
+	color: #f5f5f5;
+	text-decoration: none;
+	text-transform: uppercase;
+	font: 16px;
+	font-family: sans-serif;
+}
+
+header li{
+	float: left;
+	display: inline;
+	padding: 0 20px 0 20px;
+}
+header #branding{
+	float: left;
+}
+header #branding h1{
+	margin: 0;
+}
+header nav{
+	float: right;
+	margin-top: 10px;
+}
+header .highlight, header .current a {
+	color: #f7ba43;
+	font-weight: bold;
+}
+header a:hover{
+	color: #cccccc;
+	font-weight: bold;
+}
+.bg{
+	background-color: #daa520;	
+}
+/*button style a*/
+.btn-primary{
+	-webkit-border-radius:0;
+	-moz-border-radius:0;
+	border-radius: 0px;
+	font-family: Georgia;
+	color: #fff;
+	font-size: 15px;
+	background: #5e9bff;
+	padding: 10px 15px;
+	text-transform: uppercase;
+	border: none;
+}
+.btn-update{
+	font-family: sans-serif;
+	color: #fff;
+	font-size: 15px;
+	background: #09192a;
+	padding: 10px 20px;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+.btn-update:hover{
+	background: #076dad;
+	text-decoration: none;
+}
+.btn-delete{
+	font-family: Georgia;
+	color: #fff;
+	font-size: 15px;
+	background: #d93434;
+	padding: 10px 20px;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+.error{
+	color: #fff;
+	display: inline-block;
+	float: right;
+	margin-top: 15px;
+}
+input[type=text]{
+	width:100%;
+	border:2px solid #ced4dd;
+	border-radius: 4px;
+	margin: 5px 0;
+	outline: none;
+	padding: 5px;
+	box-sizing: border-box;
+	transition: .3s;
+	background: transparent;
+	color: #f5f5f5;
+}
+input[type=text]:focus{
+	border-color: #555;
+	box-shadow: 0 0 5px 0 #555;
+}
+select{
+	width: 100%;
+	display: block;
+	margin: 5px 0;
+	padding:5px;
+	border: 2px solid #ced4dd;
+	border-radius: 4px;
+	outline: none;
+	box-sizing: border-box;
+	transition: .3s;
+	color: #f5f5f5;
+	background: transparent;
+}
+select option{
+	color: #000;
+}
+select:focus{
+	border-color: #555;
+	box-shadow: 0 0 5px 0 #555;
+}
+::placeholder{
+	color: #f5f5f5;
+}
+input[type=submit]{
+	width: 250px;
+	border:2px solid #aaa;
+	border-radius: 4px;
+}
+table h2{
+	background-color: #a1b9a5;
+	text-align: center;
+}
+
+
+/*showcase*/
+
+#showcase{
+	min-height: 550px;
+	background: url('../resources/img/taalvolcano.jpg') no-repeat center/ cover;
+	text-align: center;
+	color: #ffffff;
+	height: 70%;
+	z-index: -1;
+}
+#showcase h1{
+	font-size: 55px;
+	margin-top: 100px;
+	margin-bottom: 10px;
+	font-family: sans-serif;
+}
+#showcase p{
+	font-size: 20px;
+}
+#showcase .container{
+	z-index: -1;
+}
+
+/*book reservation banner*/
+.bookreservation-banner-inner {
+	background: #2f4f4f;
+	padding: 40px;
+	text-align: center;
+	color:#f5f5f5;
+	text-transform: uppercase;
+	letter-spacing: 4px;
+	text-decoration: none;
+
+}
+#bookreservation a{
+	text-decoration: none;
+    font-family: sans-serif;
+}
+#bookreservation{
+	border-bottom: #daa520 5px solid;
+}
+
+#rooms{
+	margin-top: 50px;
+}
+#rooms span{
+	text-align: center;
+	font-family: sans-serif;
+}
+
+#rooms .container{
+	padding: 5px;
+	color: #ffffff;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+#rooms .box{
+	border: #daa520 3px solid;
+	background: #2f4f4f;
+	float: left;
+	width: 90%;
+	height: 100%;
+	margin: 15px;
+	text-align:center;
+}
+.content{
+	color: #000;
+	text-align: left;
+	font-family: sans-serif;
+	background: #a1b9a5;
+	width: 100%;
+	height: 265px;
+	font-size: 16px;
+}
+#rooms a{
+	color: #fff;
+	text-decoration: none;
+	font-family: sans-serif;
+}
+#rooms .box img{	
+	margin: 20px 20px 20px 20px;
+	width: 80%;
+	height: 200px;
+}
+#mainservices{
+	margin-top: 70px;
+}
+#mainservices .container{
+	width: 80%;
+	height: 350px;
+	background: #2f4f4f;
+	text-align: center;
+	margin-bottom: 0;
+}
+#mainservices ul li {
+	text-align: left;
+	margin-left: 30px;
+	font-size: 20px;
+}
+
+#mainservices .box1{
+	width: 25%;
+	height: 250px;
+	background: #daa520;
+	float: left;
+	margin-top: 0px;
+	margin-left:25%;
+
+}
+#mainservices .box2{
+	width: 25%;
+	height: 250px;
+	background: #daa520;
+	float: right;
+	margin-top: 0;
+	margin-right: 25%;
+}
+/*Services*/
+
+#services{
+	width: 80%;
+	margin: 120px auto;
+	text-align: center;
+	font-family: sans-serif;
+}
+#services .top{
+	background-color: #000;
+	float: left;
+	width: 100%;
+	text-align:center;
+}
+
+#services .pics img{		
+	border: #daa520 3px solid;
+	margin: 25px;
+	margin-left: 35px;
+	width: 250px;
+	height: 210px;
+	padding: 0;
+}
+#services span{
+	position: relative;
+	text-align: center;
+	font-family: sans-serif;
+}
+
+#services .box h3{
+	letter-spacing: 3px;
+	font-family: sans-serif;
+	margin-bottom: 120px;
+	text-align: center;
+}
+/*About us*/
+#aboutus{
+	margin-top: 90px;
+	text-align:center;
+}
+#aboutus .container{
+	border: #2f4f4f 3px solid;
+	padding: 15px;
+	background: #2f4f4f;
+	color: #ffffff;
+	margin-top: 70px;
+	margin-bottom: 10px;
+	width: 60%;
+}
+#aboutus img{
+	width: 70%;
+}	
+
+#rooms .container{
+	display: block;
+}
+.table_form{	
+	padding: 0;
+	margin: 0 auto;
+	width: 55%;
+	float: left;
+	color: #f5f5f5;
+}
+.table_form table{
+	margin: 5px 70px;
+	color: #f5f5f5;
+}
+.table_form h1,h2{
+	color: #000;
+}
+.wrapperlogo{
+	font-size: 16px;
+	padding: 0;
+	margin: 10px 0 0 0;
+	color: #f5f5f5;
+	overflow: hidden;
+	width: 55%;
+	float: left;
+}
+#show{
+	display:block;
+	font-size: 16px;
+	padding: 0;
+	margin: 0;
+	color: #f5f5f5;
+	overflow: hidden;
+	float: left;
+}
+#show table{
+	margin:25px 0 0 0;
+	color: #f5f5f5;
+	font-size: 16px;
+}
+
+.info{
+	font-size: 16px;
+	padding: 0;
+	margin:0;
+	width: 40%;
+	color: #f5f5f5;
+	background: #000;
+	position: block;
+	clear:left;
+	height: 300px;
+}
+.wrapperlogo table{
+	margin:25px 0 0 0;
+	color: #f5f5f5;
+	font-size: 16px;
+}
+.logo{
+	background: url("../resources/img/LOGOFINALHOTEL.png") no-repeat center/ cover;
+	margin: 10px 25px 0 0;
+	float: right;
+	height: 590px;
+	width: 30%;
+}
+
+
+
+
+/*Boxes*/
+#boxes{
+	margin-top: 20px
+}
+#boxes .box{
+	float: left;
+	width: 30%;
+	text-align:center;
+	padding: 10px;
+}
+#boxes .box .color{
+	width: 50%;
+	height: 100px;
+	margin-left: 25%;
+}
+aside #sidebar{
+	float: right;
+	width: 30%;
+	margin-top:0px;
+}
+article #main-col{
+	float: left;
+	width: 65%;
+}
+/*#services li{
+	padding: 0 10px 5px 0;
+	text-indent: -.15em;
+	list-style-type: square;
+	margin-left: 10px;
+}*/
+.wrap{
+	min-height: 550px;
+	background: url('../resources/img/taalvolcano.jpg') no-repeat center/ cover;
+	text-align: center;
+	color: #ffffff;
+	height: 100%;
+	z-index: -1;
+}
+
+#newsletter{
+	width: 100%;
+	padding: 5px 0;
+	color: #fff;
+	float: left;
+	background:#2f4f4f;
+	position: absolute;
+}
+#newsletter h1{
+	padding: 15px;
+	float: left;
+}
+#newsletter form{
+	float: right;
+	margin-top: 15px;
+}
+#newsletter input[type="email"]{
+	height: 37px;
+	width: 250px;
+	border:2px solid #aaa;
+	border-radius: 4px;
+	margin: 5px 0;
+	outline: none;
+	padding: 5px;
+	box-sizing: border-box;
+	transition: .3s;
+}
+#newsletter input[type="email"]:focus{
+	border-color: #555;
+	box-shadow: 0 0 5px 0 #555;
+}
+
+
+
+footer{
+	color: #fff;
+	background-color: #DAA520;
+	text-align: center;
+	position: absolute;
+	height: 50px;
+	width: 100%;
+	padding: 5px 0;
+	margin-top: 100px;
+}
+.foot{
+	background: #DAA520;
+	height: 25px;
+	bottom: 0;
+	text-align: center;
+	padding: 10px 0;
+}
